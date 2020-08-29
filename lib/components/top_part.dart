@@ -15,7 +15,7 @@ class TopPart extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                'What do you want\nto see today?',
+                'What do you want\nto eat today?',
                 style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
               ),
               Card(
