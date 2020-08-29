@@ -41,7 +41,7 @@ class PopularCard extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(5.0),
                         child: Text(
-                          'Picture',
+                          'Food',
                           style: TextStyle(
                               color: Colors.blue[600],
                               fontWeight: FontWeight.bold),
