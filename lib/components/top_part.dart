@@ -28,10 +28,7 @@ class TopPart extends StatelessWidget {
           ),
         ),
         Expanded(
-          child: Container(
-            height: 300,
-            child: HorizontalListView(),
-          ),
+          child: HorizontalListView(),
         ),
       ],
     );
