@@ -26,7 +26,7 @@ class HorizontalListView extends StatelessWidget {
                       style: TextStyle(color: Colors.grey[500]),
                     ),
                     Text(
-                      ' ${Random().nextInt(1000)} view',
+                      ' ${Random().nextInt(1000)}',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     )
                   ],
