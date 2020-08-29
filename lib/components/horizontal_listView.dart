@@ -14,9 +14,24 @@ class HorizontalListView extends StatelessWidget {
         itemCount: 5,
         itemBuilder: (context, index) {
           return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               ImageCard(index: (index + 5).toString(), size: 150),
-              Text('View: ${Random().nextInt(1000)}')
+              Padding(
+                padding: const EdgeInsets.only(left: 25.0),
+                child: Row(
+                  children: [
+                    Text(
+                      'View:',
+                      style: TextStyle(color: Colors.grey[500]),
+                    ),
+                    Text(
+                      ' ${Random().nextInt(1000)} view',
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    )
+                  ],
+                ),
+              )
             ],
           );
         });
