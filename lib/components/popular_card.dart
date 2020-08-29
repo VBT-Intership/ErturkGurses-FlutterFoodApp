@@ -10,7 +10,6 @@ class PopularCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: 10,
       child: Row(
         children: [
           ImageCard(index: index.toString(), size: 80),
