@@ -20,7 +20,7 @@ class PopularCard extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(left: 10.0),
                   child: Text(
-                    'A Popular Picture',
+                    'A Popular Food',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                   ),
                 ),
