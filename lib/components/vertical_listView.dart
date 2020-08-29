@@ -12,12 +12,11 @@ class VerticalListView extends StatelessWidget {
         padding: EdgeInsets.only(left: 20),
         shrinkWrap: true,
         scrollDirection: Axis.vertical,
-        itemCount: 5,
+        itemCount: 4,
         itemBuilder: (context, index) {
           return Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: PopularCard(index:index)
-          );
+              padding: const EdgeInsets.all(8.0),
+              child: PopularCard(index: index));
         });
   }
 }
