@@ -28,8 +28,10 @@ class MiddlePart extends StatelessWidget {
                   style: TextStyle(
                       height: 1.5, fontSize: 17, fontWeight: FontWeight.bold)),
             ),
-            Text('Monggo,entekno duwekmu!',
-                style: TextStyle(fontWeight: FontWeight.w300)),
+            Text(
+              'Monggo,entekno duwekmu!',
+              style: TextStyle(color: Colors.grey[500]),
+            ),
           ],
         ),
       ]),
